@@ -69,6 +69,9 @@ int main()
 		case 5:
 			break;
 		}
-	}
+		default:
+			cout << "Menu Tidak tersedia silahkan pilih kembali" < , endl;
+			break;
+	} while (pilihan != 5);
 }
  

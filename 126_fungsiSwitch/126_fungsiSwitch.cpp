@@ -50,6 +50,11 @@ int main()
 			cout << "Hasil penjumlahan = " << penjumlahan(a, b) << endl;
 			system("pause");
 			break;
+		case 2:
+			input();
+			cout << "Hasil pengurangan = " << pengurangan(a, b) << endl;
+			system("pause");
+			break;
 
 		}
 	}

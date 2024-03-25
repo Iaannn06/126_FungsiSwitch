@@ -5,7 +5,7 @@ using namespace std;
 
 int a, b;
 
-void input;
+void input()
 {
 	cout << "Bilangan pertama = ";
 	cin >> a;
@@ -68,10 +68,11 @@ int main()
 			break;
 		case 5:
 			break;
-		}
 		default:
-			cout << "Menu Tidak tersedia silahkan pilih kembali" < , endl;
+			cout << "Menu Tidak tersedia silahkan pilih kembali" << endl;
 			break;
+		}
+
 	} while (pilihan != 5);
 }
  
